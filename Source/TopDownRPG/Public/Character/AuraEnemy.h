@@ -18,5 +18,7 @@ class TOPDOWNRPG_API AAuraEnemy : public AAuraCharacterBase, public IEnemyInterf
 public:
 	virtual void HighlightActor() override;
 	virtual void UnHighlightActor() override;
-	
+
+	UPROPERTY(BlueprintReadOnly)
+	bool bHighlighted = false;
 };
