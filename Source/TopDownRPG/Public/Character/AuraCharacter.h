@@ -13,5 +13,7 @@ UCLASS()
 class TOPDOWNRPG_API AAuraCharacter : public AAuraCharacterBase
 {
 	GENERATED_BODY()
-	
+
+public:
+	AAuraCharacter();
 };
